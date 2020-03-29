@@ -71,7 +71,7 @@ static int driver_entry(void){
 	major_number = MAJOR(dev_num);
 
 	printk(KERN_INFO "fakemodule: major number is %d", major_number);
-	printk(KERN_INFO "\tuse \"mknod /dev/%s C %d 0\" for device file", "batmobile", major_number);
+	printk(KERN_INFO "\tuse \"mknod /dev/%s c %d 0\" for device file", "batmobile", major_number);
 
 	mcdev = cdev_alloc();
 
