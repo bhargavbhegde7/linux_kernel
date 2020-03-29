@@ -13,3 +13,6 @@ Linux Kernel Module Programming - 08 Coding the Char Device Part 2
 https://www.youtube.com/watch?v=UdeGTRvPjK4&list=PL16941B715F5507C5&index=7
 
 https://linuxhint.com/linux-device-driver-tutorial
+
+if logs run out of memory because of something then use the below command to reset them
+sudo tee /var/log/syslog /var/log/kern.log </dev/null
