@@ -1,1 +1,0 @@
-cmd_/home/bhegde/work/linux_kernel/usb_driver/custom_usb_driver.mod := { echo  /home/bhegde/work/linux_kernel/usb_driver/custom_usb_driver.o; echo; } > /home/bhegde/work/linux_kernel/usb_driver/custom_usb_driver.mod
