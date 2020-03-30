@@ -142,7 +142,8 @@ static void driver_exit(void){
 	cdev_del(mcdev);
 
 	unregister_chrdev_region(dev_num, 1);
-	printk(KERN_ALERT "fakemodule: unloaded module");
+	printk(KERN_ALERT "fakemodule: unloaded module 1");
+	printk(KERN_ALERT "fakemodule: unloaded module 2");
 }
 
 module_init(driver_entry);
