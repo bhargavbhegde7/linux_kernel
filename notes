@@ -16,3 +16,9 @@ https://linuxhint.com/linux-device-driver-tutorial
 
 if logs run out of memory because of something then use the below command to reset them
 sudo tee /var/log/syslog /var/log/kern.log </dev/null
+
+
+https://www.arduino.cc/reference/en/language/functions/communication/serial/read/
+https://forum.arduino.cc/index.php?topic=650083.0
+https://forum.arduino.cc/index.php?topic=396450.0
+https://www.arduino.cc/reference/en/language/functions/communication/serial/
