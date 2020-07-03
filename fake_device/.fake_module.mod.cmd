@@ -1,1 +1,0 @@
-cmd_/home/bhegde/work/linux_kernel/fake_device/fake_module.mod := { echo  /home/bhegde/work/linux_kernel/fake_device/fake_module.o; echo; } > /home/bhegde/work/linux_kernel/fake_device/fake_module.mod
