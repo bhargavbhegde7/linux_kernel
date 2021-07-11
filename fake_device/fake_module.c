@@ -146,5 +146,9 @@ static void driver_exit(void){
 	printk(KERN_ALERT "fakemodule: unloaded module 2");
 }
 
+MODULE_LICENSE("Dual BSD/GPL");
+MODULE_AUTHOR("bhargav");
+MODULE_DESCRIPTION("dummy module to test");
+
 module_init(driver_entry);
 module_exit(driver_exit);
