@@ -7,7 +7,7 @@ If you want to see it work, pleas cd into the fake_device directory and run the 
 2. sudo insmod fake_module.ko
 3. gcc producer.c -o producer
 4. gcc consumer.c -o consumer
-5. sudo mknod /dev/batmobile c 236 0 (the number 236 is to be taken from the dmesg system kernal logs)
+5. sudo mknod /dev/batmobile c 236 0 (the number 236 may vary for you. It has to be taken from the dmesg system kernal logs)
 6. sudo chmod 666 /dev/batmobile
 7. ./producer (separate terminal)
 8. ./consumer (separate terminal)
