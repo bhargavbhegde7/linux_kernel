@@ -21,4 +21,5 @@ for mock driver implementation
 https://www.youtube.com/watch?v=_4H-F_5yDvo&list=PL16941B715F5507C5&index=6
 
 Other useful blog post:
-http://derekmolloy.ie/writing-a-linux-kernel-module-part-1-introduction/
+1. http://derekmolloy.ie/writing-a-linux-kernel-module-part-1-introduction/
+2. https://sysprog21.github.io/lkmpg/
