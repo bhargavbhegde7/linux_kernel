@@ -1,5 +1,7 @@
 *.ko.*
 *.ko
+*.mod
+*.mod.*
 *.mod.c
 *.o.*
 *.o
@@ -7,3 +9,4 @@
 *.symvers
 */.tmp_versions
 */Module.symvers
+*.cmd
